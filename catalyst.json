@@ -1,0 +1,6 @@
+{
+  "client": {
+    "source": "data-visualization",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

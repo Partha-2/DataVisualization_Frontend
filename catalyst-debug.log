@@ -1,0 +1,251 @@
+[debug] [2024-07-06T20:48:28.223Z] : 
+[debug] [2024-07-06T20:48:28.226Z] : ----------------------------------------------------------------------
+[debug] [2024-07-06T20:48:28.226Z] : Command:      D:\node js\node.exe C:\Users\91934\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-06T20:48:28.227Z] : CLI Version:  1.17.5
+[debug] [2024-07-06T20:48:28.227Z] : Platform:     win32
+[debug] [2024-07-06T20:48:28.227Z] : Node Version: v22.2.0
+[debug] [2024-07-06T20:48:28.227Z] : Time:         Sun Jul 07 2024 02:18:28 GMT+0530 (India Standard Time)
+[debug] [2024-07-06T20:48:28.227Z] : ----------------------------------------------------------------------
+[debug] [2024-07-06T20:48:28.227Z] : 
+[debug] [2024-07-06T20:48:31.774Z] : > authorizing via signed-in user option
+[debug] [2024-07-06T20:48:31.775Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-06T20:48:31.801Z] : > refreshing access token <
+[debug] [2024-07-06T20:48:31.802Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-07-06T20:48:32.287Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 06 Jul 2024 20:48:32 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["zalb_6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=a19c1d8c-1e65-4671-8478-c6540af650bf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a19c1d8c-1e65-4671-8478-c6540af650bf;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-06T20:48:32.304Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001 
+
+[debug] [2024-07-06T20:48:32.733Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 06 Jul 2024 20:48:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=32aa7d60-74b0-4832-9eaa-bb39980c46ca;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=32aa7d60-74b0-4832-9eaa-bb39980c46ca;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-06T20:48:32.735Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001/environment 
+
+[debug] [2024-07-06T20:48:32.832Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 06 Jul 2024 20:48:32 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=55debea4-31d0-4c38-8e40-d38d751341d2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=55debea4-31d0-4c38-8e40-d38d751341d2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-06T20:48:34.164Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-07-06T20:48:34.474Z] : No basic functions to add
+[info] [2024-07-06T20:48:38.087Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-07-06T20:48:38.091Z] : 
+[info] [2024-07-06T20:48:38.092Z] : i Client[data-visualization]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-07-06T20:48:38.094Z] : 
+[info] [2024-07-06T20:48:40.903Z] : 
+[info] [2024-07-06T20:48:40.904Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-07-06T20:48:40.905Z] : i client[data-visualization]: http://localhost:3001/app/
+[info] [2024-07-06T20:48:40.906Z] : 
+[info] [2024-07-06T20:48:46.042Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-06T20:48:46.043Z] : [react-plugin]: 
+[info] [2024-07-06T20:48:46.044Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-06T20:48:46.044Z] : [react-plugin]: 
+[info] [2024-07-06T20:48:46.044Z] : [react-plugin]:   Local:            http://localhost:3001/app/
+[info] [2024-07-06T20:48:46.045Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3001/app/
+[info] [2024-07-06T20:48:46.045Z] : [react-plugin]: 
+[info] [2024-07-06T20:48:46.046Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-06T20:48:46.046Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-06T20:48:46.047Z] : [react-plugin]: 
+[debug] [2024-07-07T10:11:08.626Z] : 
+[debug] [2024-07-07T10:11:08.629Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T10:11:08.630Z] : Command:      D:\node js\node.exe C:\Users\91934\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-07T10:11:08.630Z] : CLI Version:  1.17.5
+[debug] [2024-07-07T10:11:08.631Z] : Platform:     win32
+[debug] [2024-07-07T10:11:08.631Z] : Node Version: v22.2.0
+[debug] [2024-07-07T10:11:08.631Z] : Time:         Sun Jul 07 2024 15:41:08 GMT+0530 (India Standard Time)
+[debug] [2024-07-07T10:11:08.631Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T10:11:08.631Z] : 
+[debug] [2024-07-07T10:11:11.585Z] : > authorizing via signed-in user option
+[debug] [2024-07-07T10:11:11.586Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-07T10:11:11.625Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001 
+
+[debug] [2024-07-07T10:11:12.106Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 10:11:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=d2cc86fb-7561-4510-a9d1-0776f25cc764;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d2cc86fb-7561-4510-a9d1-0776f25cc764;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T10:11:12.117Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001/environment 
+
+[debug] [2024-07-07T10:11:12.227Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 10:11:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=2a096cbf-ece7-4a6c-89d4-b8af5a9e2446;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2a096cbf-ece7-4a6c-89d4-b8af5a9e2446;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T10:11:16.244Z] : No basic functions to add
+[info] [2024-07-07T10:12:27.790Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-07-07T10:12:27.793Z] : 
+[info] [2024-07-07T10:12:27.794Z] : i Client[data-visualization]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-07-07T10:12:27.795Z] : 
+[info] [2024-07-07T10:13:05.570Z] : 
+[info] [2024-07-07T10:13:05.581Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-07-07T10:13:05.591Z] : i client[data-visualization]: http://localhost:3000/app/
+[info] [2024-07-07T10:13:05.592Z] : 
+[info] [2024-07-07T10:13:58.756Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T10:13:58.764Z] : [react-plugin]: 
+[info] [2024-07-07T10:13:58.765Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T10:13:58.766Z] : [react-plugin]: 
+[info] [2024-07-07T10:13:58.766Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T10:13:58.767Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T10:13:58.767Z] : [react-plugin]: 
+[info] [2024-07-07T10:13:58.768Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T10:13:58.769Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T10:13:58.770Z] : [react-plugin]: 
+[debug] [2024-07-07T12:39:56.863Z] : 
+[debug] [2024-07-07T12:39:56.873Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T12:39:56.873Z] : Command:      D:\node js\node.exe C:\Users\91934\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-07T12:39:56.874Z] : CLI Version:  1.17.5
+[debug] [2024-07-07T12:39:56.875Z] : Platform:     win32
+[debug] [2024-07-07T12:39:56.875Z] : Node Version: v22.2.0
+[debug] [2024-07-07T12:39:56.876Z] : Time:         Sun Jul 07 2024 18:09:56 GMT+0530 (India Standard Time)
+[debug] [2024-07-07T12:39:56.876Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T12:39:56.876Z] : 
+[debug] [2024-07-07T12:39:59.862Z] : > authorizing via signed-in user option
+[debug] [2024-07-07T12:39:59.863Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-07T12:39:59.890Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001 
+
+[debug] [2024-07-07T12:40:00.465Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 12:40:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=21048c2b-5a05-410d-a992-f62e40979ba2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=21048c2b-5a05-410d-a992-f62e40979ba2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T12:40:00.483Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001/environment 
+
+[debug] [2024-07-07T12:40:00.563Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 12:40:00 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=c1f4eae4-54ce-452e-8a69-92b7d947ca1b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=c1f4eae4-54ce-452e-8a69-92b7d947ca1b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T12:40:03.087Z] : No basic functions to add
+[info] [2024-07-07T12:40:30.660Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-07-07T12:40:30.668Z] : 
+[info] [2024-07-07T12:40:30.670Z] : i Client[data-visualization]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-07-07T12:40:30.671Z] : 
+[info] [2024-07-07T12:40:40.329Z] : 
+[info] [2024-07-07T12:40:40.330Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-07-07T12:40:40.331Z] : i client[data-visualization]: http://localhost:3000/app/
+[info] [2024-07-07T12:40:40.332Z] : 
+[info] [2024-07-07T12:40:43.484Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T12:40:43.485Z] : [react-plugin]: 
+[info] [2024-07-07T12:40:43.486Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T12:40:43.487Z] : [react-plugin]: 
+[info] [2024-07-07T12:40:43.487Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T12:40:43.488Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T12:40:43.488Z] : [react-plugin]: 
+[info] [2024-07-07T12:40:43.489Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T12:40:43.490Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T12:40:43.491Z] : [react-plugin]: 
+[info] [2024-07-07T12:42:47.820Z] : [react-plugin]: Compiling...
+[info] [2024-07-07T12:42:56.031Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T12:42:56.031Z] : [react-plugin]: 
+[info] [2024-07-07T12:42:56.032Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T12:42:56.032Z] : [react-plugin]: 
+[info] [2024-07-07T12:42:56.032Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T12:42:56.033Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T12:42:56.033Z] : [react-plugin]: 
+[info] [2024-07-07T12:42:56.033Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T12:42:56.034Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T12:42:56.034Z] : [react-plugin]: 
+[info] [2024-07-07T12:43:30.469Z] : [react-plugin]: Compiling...
+[info] [2024-07-07T12:43:31.279Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T12:43:31.315Z] : [react-plugin]: 
+[info] [2024-07-07T12:43:31.316Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T12:43:31.316Z] : [react-plugin]: 
+[info] [2024-07-07T12:43:31.318Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T12:43:31.318Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T12:43:31.319Z] : [react-plugin]: 
+[info] [2024-07-07T12:43:31.320Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T12:43:31.320Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T12:43:31.340Z] : [react-plugin]: 
+[debug] [2024-07-07T12:56:44.412Z] : 
+[debug] [2024-07-07T12:56:44.416Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T12:56:44.416Z] : Command:      D:\node js\node.exe C:\Users\91934\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-07-07T12:56:44.417Z] : CLI Version:  1.17.5
+[debug] [2024-07-07T12:56:44.417Z] : Platform:     win32
+[debug] [2024-07-07T12:56:44.417Z] : Node Version: v22.2.0
+[debug] [2024-07-07T12:56:44.418Z] : Time:         Sun Jul 07 2024 18:26:44 GMT+0530 (India Standard Time)
+[debug] [2024-07-07T12:56:44.418Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T12:56:44.418Z] : 
+[debug] [2024-07-07T12:56:46.481Z] : > authorizing via signed-in user option
+[debug] [2024-07-07T12:56:46.482Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-07-07T12:56:46.505Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001 
+
+[debug] [2024-07-07T12:56:46.952Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 12:56:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=1c91b340-dcf2-4ee7-9348-a8c169ffd145;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1c91b340-dcf2-4ee7-9348-a8c169ffd145;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T12:56:46.968Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001/environment 
+
+[debug] [2024-07-07T12:56:47.067Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 12:56:47 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=71cf3540-3971-4256-b93e-4652509b2ff4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=71cf3540-3971-4256-b93e-4652509b2ff4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-07-07T12:56:47.509Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-07-07T12:56:47.509Z] : i Building Application...
+[info] [2024-07-07T12:56:53.039Z] : [react-plugin]: Creating an optimized production build...
+[debug] [2024-07-07T13:04:15.335Z] : 
+[debug] [2024-07-07T13:04:15.339Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T13:04:15.339Z] : Command:      D:\node js\node.exe C:\Users\91934\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-07-07T13:04:15.340Z] : CLI Version:  1.17.5
+[debug] [2024-07-07T13:04:15.340Z] : Platform:     win32
+[debug] [2024-07-07T13:04:15.340Z] : Node Version: v22.2.0
+[debug] [2024-07-07T13:04:15.340Z] : Time:         Sun Jul 07 2024 18:34:15 GMT+0530 (India Standard Time)
+[debug] [2024-07-07T13:04:15.340Z] : ----------------------------------------------------------------------
+[debug] [2024-07-07T13:04:15.341Z] : 
+[debug] [2024-07-07T13:04:17.108Z] : > authorizing via signed-in user option
+[debug] [2024-07-07T13:04:17.109Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-07-07T13:04:17.141Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001 
+
+[debug] [2024-07-07T13:04:17.608Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 13:04:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9c4fa3b7-be90-41b0-a1f2-364db98b5c21;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9c4fa3b7-be90-41b0-a1f2-364db98b5c21;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T13:04:17.622Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/7602000000019001/environment 
+
+[debug] [2024-07-07T13:04:17.704Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 07 Jul 2024 13:04:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=51cbd6ae-c976-4a7b-9204-74d4effc43fd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=51cbd6ae-c976-4a7b-9204-74d4effc43fd;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-07-07T13:04:18.443Z] : No basic functions to add
+[info] [2024-07-07T13:04:22.666Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-07-07T13:04:22.668Z] : 
+[info] [2024-07-07T13:04:22.669Z] : i Client[data-visualization]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-07-07T13:04:22.670Z] : 
+[info] [2024-07-07T13:04:26.289Z] : 
+[info] [2024-07-07T13:04:26.290Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-07-07T13:04:26.292Z] : i client[data-visualization]: http://localhost:3000/app/
+[info] [2024-07-07T13:04:26.293Z] : 
+[info] [2024-07-07T13:04:28.035Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T13:04:28.039Z] : [react-plugin]: 
+[info] [2024-07-07T13:04:28.040Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T13:04:28.041Z] : [react-plugin]: 
+[info] [2024-07-07T13:04:28.042Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T13:04:28.043Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T13:04:28.044Z] : [react-plugin]: 
+[info] [2024-07-07T13:04:28.045Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T13:04:28.046Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T13:04:28.047Z] : [react-plugin]: 
+[info] [2024-07-07T13:10:10.714Z] : [react-plugin]: Compiling...
+[info] [2024-07-07T13:10:14.761Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T13:10:14.761Z] : [react-plugin]: 
+[info] [2024-07-07T13:10:14.761Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T13:10:14.762Z] : [react-plugin]: 
+[info] [2024-07-07T13:10:14.762Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T13:10:14.762Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T13:10:14.762Z] : [react-plugin]: 
+[info] [2024-07-07T13:10:14.763Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T13:10:14.763Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T13:10:14.764Z] : [react-plugin]: 
+[info] [2024-07-07T13:15:53.106Z] : [react-plugin]: Compiling...
+[info] [2024-07-07T13:15:54.152Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T13:15:54.169Z] : [react-plugin]: 
+[info] [2024-07-07T13:15:54.170Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T13:15:54.171Z] : [react-plugin]: 
+[info] [2024-07-07T13:15:54.171Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T13:15:54.172Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T13:15:54.172Z] : [react-plugin]: 
+[info] [2024-07-07T13:15:54.172Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T13:15:54.173Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T13:15:54.174Z] : [react-plugin]: 
+[info] [2024-07-07T13:16:05.675Z] : [react-plugin]: Compiling...
+[info] [2024-07-07T13:16:06.102Z] : [react-plugin]: Compiled successfully!
+[info] [2024-07-07T13:16:06.103Z] : [react-plugin]: 
+[info] [2024-07-07T13:16:06.104Z] : [react-plugin]: You can now view data-visualization in the browser.
+[info] [2024-07-07T13:16:06.104Z] : [react-plugin]: 
+[info] [2024-07-07T13:16:06.105Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-07-07T13:16:06.106Z] : [react-plugin]:   On Your Network:  http://172.27.48.1:3000/app/
+[info] [2024-07-07T13:16:06.106Z] : [react-plugin]: 
+[info] [2024-07-07T13:16:06.107Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-07-07T13:16:06.112Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-07-07T13:16:06.118Z] : [react-plugin]: 
