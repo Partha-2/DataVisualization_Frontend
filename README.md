@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+📊 Data Visualization Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive data visualization dashboard built with React 18 to analyze and display insights using charts and tables. The frontend consumes data from a Spring Boot REST API.
 
-## Available Scripts
+🔗 Live Links
 
-In the project directory, you can run:
+🌐 Frontend (Zoho Catalyst)
+👉 https://datavisualization-60030162551.development.catalystserverless.in/app/
 
-### `yarn start`
+🔌 Backend API (Render)
+👉 https://datarecord-backend.onrender.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🛠 Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Frontend
 
-### `yarn test`
+React 18
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Axios
 
-### `yarn build`
+Chart.js & react-chartjs-2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Vanilla CSS (Dark Theme)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Backend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Spring Boot (REST API)
 
-### `yarn eject`
+Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Frontend: Zoho Catalyst
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Backend: Render
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+📁 Project Structure
+src/
+ ├── index.js
+ ├── Home.jsx
+ ├── DataComponent.js
+ ├── Data.css
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+✨ Features
 
-## Learn More
+📈 Bar & Pie charts (Sector & Region)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔍 Multi-field search
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+📋 Tabular data view
 
-### Code Splitting
+⏳ Loading & error handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📱 Fully responsive UI
 
-### Analyzing the Bundle Size
+🌙 Modern dark theme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🚀 Getting Started
+git clone https://github.com/Partha-2/DataVisualization_Frontend.git
+cd DataVisualization_Frontend
+npm install
+npm start
 
-### Making a Progressive Web App
+🧪 Development Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Developed mainly using Antigravity IDE
 
-### Advanced Configuration
+API tested using Postman
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+React 18 createRoot used
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Handles real-world issues like backend downtime & CORS
